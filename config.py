@@ -1,0 +1,18 @@
+# Image
+IMAGE_SIZE = 32
+IMAGE_CHANNELS = 3
+
+# Watermark
+WATERMARK_LENGTH = 16
+
+# Training
+BATCH_SIZE = 64
+LEARNING_RATE = 1e-3
+NUM_EPOCHS = 100
+
+# Dataset
+NUM_TRAIN_SAMPLES = 50000
+NUM_TEST_SAMPLES = 10000
+
+# Save path
+MODEL_PATH = "final_model.pth"
